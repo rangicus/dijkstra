@@ -1,4 +1,4 @@
 {
-    "name": "A* Pathfinding",
-    "desc": "A visualization of the A* pathfinding algorithm."
+    "name": "Dijkstra's Pathfinding",
+    "desc": "A visualization of the Dijkstra pathfinding algorithm."
 }
