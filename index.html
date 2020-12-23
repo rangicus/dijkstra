@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>rangicus/a-star</title>
+
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="interface.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>A* Pathfinding</h1>
+            <p>Use the controls below to create a plane for the program to path through.</p>
+            <hr>
+
+            <div id="canvas"></div>
+
+            <hr>
+            <span class="fw-bold">Current State: </span> <span id="spanState">Draw Walls</span> <br>
+            <button class="btn btn-primary" id="buttonDrawWall">Draw Walls</button>
+            <button class="btn btn-primary" id="buttonDrawStart">Place Start</button>
+            <button class="btn btn-success" id="buttonStart">Begin Pathing</button>
+        </div>
+
+        <script src="p5.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+canvas {
+    padding-left: 0; padding-right: 0;
+    margin-left: auto; margin-right: auto;
+    display: block;
+}
+
+#canvas {
+    min-width: 100%;
+    width: 100%;
+
+    padding: 0;
+}
